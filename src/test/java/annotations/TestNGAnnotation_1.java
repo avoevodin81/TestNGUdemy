@@ -1,10 +1,14 @@
 package annotations;
 
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.annotations.*;
 
 public class TestNGAnnotation_1 {
+
+    @BeforeClass
+    public void beforeClass() {
+        System.out.print("Before Class");
+    }
 
     @BeforeMethod
     public void beforeMethod() {
@@ -14,10 +18,21 @@ public class TestNGAnnotation_1 {
     @Test
     public void test1() {
         System.out.println("Inside Test 1");
+        Assert.assertEquals(1, 2);
     }
 
     @Test
     public void test2() {
         System.out.println("Inside Test 2");
+    }
+
+    @AfterMethod
+    public void afterMethod() {
+        System.out.println("After method");
+    }
+
+    @AfterClass
+    public void afterClass() {
+        System.out.println("After class");
     }
 }
