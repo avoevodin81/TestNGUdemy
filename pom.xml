@@ -30,7 +30,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testNGReports.xml</suiteXmlFile>
+                        <suiteXmlFile>testNGListeners.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
