@@ -1,4 +1,4 @@
-package grouping;
+package udemy.grouping;
 
 import org.testng.annotations.Test;
 

@@ -1,4 +1,4 @@
-package parallel;
+package udemy.parallel;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;

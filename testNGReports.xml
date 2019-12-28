@@ -4,7 +4,7 @@
 
     <test name="test">
         <classes>
-            <class name="reports.ReportingTests"/>
+            <class name="udemy.reports.ReportingTests"/>
         </classes>
     </test>
 </suite>

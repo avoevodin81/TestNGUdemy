@@ -1,4 +1,4 @@
-package data_providers;
+package udemy.data_providers;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

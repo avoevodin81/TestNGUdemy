@@ -1,4 +1,4 @@
-package annotations;
+package udemy.annotations;
 
 import org.testng.Assert;
 import org.testng.annotations.*;

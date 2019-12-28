@@ -1,4 +1,4 @@
-package parallel;
+package udemy.parallel;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;

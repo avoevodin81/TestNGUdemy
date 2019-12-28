@@ -1,4 +1,4 @@
-package reports;
+package udemy.reports;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

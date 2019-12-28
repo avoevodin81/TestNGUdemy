@@ -3,7 +3,7 @@
 <suite name="Default suite 3" parallel="tests" thread-count="2" verbose="10">
     <test name="test">
         <classes>
-            <class name="annotations.TestNGAnnotation_3"/>
+            <class name="udemy.annotations.TestNGAnnotation_3"/>
         </classes>
     </test>
 </suite>

@@ -5,7 +5,7 @@
     <test name="test">
         <parameter name="email" value="appautomator@test.com"/>
         <classes>
-            <class name="parameterization.LearningParameters"/>
+            <class name="udemy.parameterization.LearningParameters"/>
         </classes>
     </test>
 </suite>

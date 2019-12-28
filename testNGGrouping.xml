@@ -10,7 +10,7 @@
             </run>
         </groups>
         <classes>
-            <class name="grouping.TestGrouping"/>
+            <class name="udemy.grouping.TestGrouping"/>
         </classes>
     </test>
 </suite>
